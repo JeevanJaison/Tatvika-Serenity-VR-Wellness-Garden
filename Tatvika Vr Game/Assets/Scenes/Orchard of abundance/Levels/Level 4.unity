@@ -1605,6 +1605,7 @@ GameObject:
   m_Component:
   - component: {fileID: 672224700}
   - component: {fileID: 672224699}
+  - component: {fileID: 672224701}
   m_Layer: 0
   m_Name: Spawner
   m_TagString: Untagged
@@ -1619,7 +1620,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 672224698}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fd994ad48b3c54749b45647b47435a80, type: 3}
   m_Name: 
@@ -1645,6 +1646,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &672224701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 672224698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 142c3e1d9ff2941569bb34d199bfb0d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fruits:
+  - {fileID: 1591766547535418021, guid: 4b2e8f72211e4d14590e747591f67a80, type: 3}
+  bomb: {fileID: 7766809990742260324, guid: 53e225b0a949de640aa3b75aa7a2a7d9, type: 3}
+  xBounds: 2
+  yBounds: 3
+  minDuration: 2
+  maxDuration: 3
 --- !u!1 &711514761
 GameObject:
   m_ObjectHideFlags: 0

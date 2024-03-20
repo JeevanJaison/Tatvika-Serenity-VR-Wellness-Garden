@@ -6,6 +6,7 @@ public class Spawner : MonoBehaviour
 {
     public GameObject[] fruits;
     public GameObject bomb;
+   
 
     public float xBounds, yBounds;
     void Start()

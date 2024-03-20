@@ -7,7 +7,7 @@ public class Spawner4 : MonoBehaviour
     public GameObject[] fruits;
     public GameObject bomb;
 
-    public float xBounds, yBounds;
+    public float xBounds, yBounds,minDuration,maxDuration;
     void Start()
     {
         StartCoroutine(SpawnRandomGameObject());
@@ -15,7 +15,7 @@ public class Spawner4 : MonoBehaviour
 
     IEnumerator SpawnRandomGameObject()
     {
-        yield return new WaitForSeconds(Random.Range(1, 2));
+        yield return new WaitForSeconds(Random.Range(minDuration, maxDuration));
         int randomFruit = Random.Range(0, fruits.Length);
 
         if (Random.value <= 0.6f)
