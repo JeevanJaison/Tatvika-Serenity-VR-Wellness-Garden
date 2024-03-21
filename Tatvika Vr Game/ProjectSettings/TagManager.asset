@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Fruits
   - Bomb
+  - RottenFruits
   layers:
   - Default
   - TransparentFX
