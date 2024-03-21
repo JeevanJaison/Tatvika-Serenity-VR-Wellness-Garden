@@ -1682,7 +1682,7 @@ MonoBehaviour:
   - {fileID: 1591766547535418021, guid: 4b2e8f72211e4d14590e747591f67a80, type: 3}
   bomb: {fileID: 7766809990742260324, guid: 53e225b0a949de640aa3b75aa7a2a7d9, type: 3}
   xBounds: 2
-  yBounds: 3
+  yBounds: 4
   minDuration: 2
   maxDuration: 3
   fallSpeed: 2
@@ -2828,7 +2828,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77c42ad867e68b046857515272b29c59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mFactor: 0
 --- !u!114 &1995645066
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class BasketMovement : MonoBehaviour
 {
-    public float mFactor;
+    private float mFactor;
     private Vector3 offset;
     // Start is called before the first frame update
     void Start()
     {
-        mFactor = 0.1f;
-        offset = new Vector3(mFactor, 0f, 0f);
+        mFactor = 4f;
+        offset = new Vector3(mFactor * Time.deltaTime, 0f, 0f);
     }
 
     // Update is called once per frame

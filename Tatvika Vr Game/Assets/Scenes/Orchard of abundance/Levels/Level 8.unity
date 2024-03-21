@@ -1647,8 +1647,8 @@ MonoBehaviour:
   bomb: {fileID: 7766809990742260324, guid: 53e225b0a949de640aa3b75aa7a2a7d9, type: 3}
   xBounds: 3
   yBounds: 4
-  minDuration: 0.5
-  maxDuration: 1.5
+  minDuration: 1
+  maxDuration: 2
 --- !u!1 &711514761
 GameObject:
   m_ObjectHideFlags: 0
