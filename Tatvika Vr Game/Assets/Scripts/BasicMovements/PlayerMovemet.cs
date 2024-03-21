@@ -43,6 +43,6 @@ public class PlayerMovemet : MonoBehaviour
     {
         //Calculate the movement direction
         moveDirection = orientation.forward * verticalInput + orientation.right * horizontalInput;
-        rb.AddForce(moveDirection.normalized * moveSpeed * 10f, ForceMode.Force);
+        rb.AddForce(moveDirection.normalized * moveSpeed * 6f, ForceMode.Force);
     }
 }
