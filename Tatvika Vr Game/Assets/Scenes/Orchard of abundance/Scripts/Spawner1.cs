@@ -7,7 +7,7 @@ public class Spawner1 : MonoBehaviour
     public GameObject bomb;
 
     public float xBounds, yBounds, minDuration, maxDuration;
-    public float fallSpeed =0.1f; 
+    public float fallSpeed = 0.1f;
 
     void Start()
     {
@@ -23,7 +23,7 @@ public class Spawner1 : MonoBehaviour
             int randomFruit = Random.Range(0, fruits.Length);
             Vector3 spawnPosition = new Vector3(Random.Range(-xBounds, xBounds), yBounds, 2f);
 
-            if (Random.value <=0.6f)
+            if (Random.value <= 0.8f)
             {
                 GameObject newObject = Instantiate(fruits[randomFruit], spawnPosition, Quaternion.identity);
                 StartCoroutine(MoveObjectDown(newObject));
