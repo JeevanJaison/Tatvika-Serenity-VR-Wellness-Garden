@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18018535, g: 0.22559482, b: 0.30677685, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1663,7 +1663,7 @@ MonoBehaviour:
   - {fileID: 1591766547535418021, guid: 4b2e8f72211e4d14590e747591f67a80, type: 3}
   bomb: {fileID: 7766809990742260324, guid: 53e225b0a949de640aa3b75aa7a2a7d9, type: 3}
   xBounds: 3
-  yBounds: 3
+  yBounds: 4
   minDuration: 0.5
   maxDuration: 2
 --- !u!1 &711514761
@@ -2808,7 +2808,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77c42ad867e68b046857515272b29c59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mFactor: 0
 --- !u!114 &1995645066
 MonoBehaviour:
   m_ObjectHideFlags: 0
