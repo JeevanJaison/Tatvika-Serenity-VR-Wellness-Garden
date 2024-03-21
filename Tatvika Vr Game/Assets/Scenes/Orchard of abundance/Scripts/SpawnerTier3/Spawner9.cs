@@ -20,7 +20,7 @@ public class Spawner9 : MonoBehaviour
         int randomFruit = Random.Range(0, fruits.Length);
         int randomRotten = Random.Range(0, rotten.Length);
 
-        if (Random.value <= 0.5f)
+        if (Random.value <= 0.6f)
         {
             Instantiate(fruits[randomFruit], new Vector3(Random.Range(-xBounds, xBounds), yBounds, 2f), Quaternion.identity);
         }
