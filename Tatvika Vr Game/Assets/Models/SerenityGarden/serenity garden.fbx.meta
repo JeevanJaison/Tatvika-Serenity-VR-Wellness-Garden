@@ -5,25 +5,105 @@ ModelImporter:
   internalIDToNameTable: []
   externalObjects:
   - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: e002b947a703e42fb9061f90b43a6ea7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: ae46e755653854d908d5e0656dd5a1d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: 3cc2b5452e86f41bb94c15d898a7cdcd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: 1d8b68b93fe9f4647952f3723a69075c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.004
+    second: {fileID: 2100000, guid: 23a9b73eea1ae4d8b8ec52309d41f565, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.005
+    second: {fileID: 2100000, guid: 266dc868699574e78bef4de82138f759, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.006
+    second: {fileID: 2100000, guid: fe0cbd043eb2845aaa001bc01b20cf3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.007
+    second: {fileID: 2100000, guid: b72cbd93324ce480dbd3fa4b27282ee9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.008
+    second: {fileID: 2100000, guid: 92054cd172ede434cb027f258ea4db2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.009
+    second: {fileID: 2100000, guid: 60d05f328373342928195684252646c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.010
+    second: {fileID: 2100000, guid: 679da662a9a6649b5a3460e0a7bf35d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.011
+    second: {fileID: 2100000, guid: e98b7c3902d224cf4b4e0029148fc687, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.012
+    second: {fileID: 2100000, guid: dc17d49c8e9d84b0dbdc90e133c1547c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.013
+    second: {fileID: 2100000, guid: 8bf24502a64be4068ab3f3744a677191, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.014
+    second: {fileID: 2100000, guid: 6c09d081b6ff74ea395ac41be16a9ac8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.015
+    second: {fileID: 2100000, guid: cd6a64c5f2e994e088a0990cdcef876e, type: 2}
+  - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: bush
-    second: {fileID: 2800000, guid: 0c82afd66ce7943d9af5aa817c873cf3, type: 3}
+    second: {fileID: 2800000, guid: 7332dbe92afa44ac4a9793ea38ee6a31, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: fence
-    second: {fileID: 2800000, guid: 87c8f191336c14484b592bbe9722dc43, type: 3}
+    second: {fileID: 2800000, guid: cc19d016c53844983841e521270f8fd7, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: grass
-    second: {fileID: 2800000, guid: 9554b4c1941864e219f7276812d2b3b0, type: 3}
+    second: {fileID: 2800000, guid: 7ad3d05f970a64cc5ac34b71850b84d1, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: wooden plank
-    second: {fileID: 2800000, guid: c19048aafba7a4c9fa558e5ef06a7d77, type: 3}
+    second: {fileID: 2800000, guid: fb54aac8a8ae14a3aa6360c107bed3d0, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
